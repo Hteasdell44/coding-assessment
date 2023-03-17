@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>The Coding Gauntlet</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+</head>
+
+<body>
+
+    <header>
+        <a id="leaderboard-link">View High Scores</a>
+        <p id="timer-countdown"></p>
+    </header>
+
+    <section id="start-screen">
+        
+        <h1>Welcome To The Coding Gauntlet!</h1>
+        
+        <p>
+            Answer the following code related questions as quickly as possible.
+            Your score is equal to the amount of time remaining when you finish. 
+            Remember, incorrect answers will decrease your time/score by 7 points! 
+        </p>
+
+        <button id="start-button">Enter The Gauntlet</button>
+
+    </section>
+
+    <section id="question">
+        
+        <h1 id="question-Text"></h1>
+
+        <button id="button-one" class="button"></button>
+        <button id="button-two" class="button"></button>
+        <button id="button-three" class="button"></button>
+        <button id="button-four" class="button"></button>
+
+        <hr>
+
+        <h2 id="answer-result"><i></i></h2>
+
+    </section>
+
+    <section id="name-entry">
+
+        <h1>You've completed The Gauntlet!</h1>
+
+        <p id="final-score"></p>
+
+        <form>
+            <label>Enter Your Initials:</label>
+            <input type="text" id="initial-input" />
+            <input id="form-submit" type="submit" Value="Submit" />
+        </form>
+
+       <hr>
+
+       <h2 id="answer-result-name-entry"><i></i></h2>
+
+    </section>
+
+    <section id="leaderboard">
+
+        <h1>High Scores</h1>
+
+        <p id="leaderboard-name"></p>
+
+        <div id="leaderboard-button-holder">
+            <button id="back-button">Go Back</button>
+            <button id="clear-button">Clear Leaderboard</button>
+        </div>
+        
+    </section>
+
+    <script src="./assets/js/script.js"></script>
+
+</body>
+
+</html>
